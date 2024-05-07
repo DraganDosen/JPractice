@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue May 07 09:01:23 CEST 2024","Tue May 07 09:01:23 CEST 2024","176","Suite","C_Tests Three","android.RestTest","android.RestTest","GetBookDetailsNo23","GetBookDetailsNo23",""
+"passed","Tue May 07 09:00:46 CEST 2024","Tue May 07 09:00:59 CEST 2024","13315","Suite","A_Tests One","android.BlazeLoginTest","android.BlazeLoginTest","test_Alert","test_Alert",""
+"passed","Tue May 07 09:01:23 CEST 2024","Tue May 07 09:01:23 CEST 2024","180","Suite","C_Tests Three","android.RestTest","android.RestTest","GetBookDetailsNo2","GetBookDetailsNo2",""
+"passed","Tue May 07 09:00:28 CEST 2024","Tue May 07 09:00:46 CEST 2024","17938","Suite","A_Tests One","android.BlazeLoginTest","android.BlazeLoginTest","test_Login_And_Verify_About_Us","test_Login_And_Verify_About_Us",""
+"passed","Tue May 07 09:00:59 CEST 2024","Tue May 07 09:01:20 CEST 2024","21001","Suite","B_Tests Two","android.BlazeFindAndPurchaseTest","android.BlazeFindAndPurchaseTest","test_Find_Purchase","test_Find_Purchase",""
+"passed","Tue May 07 09:01:20 CEST 2024","Tue May 07 09:01:23 CEST 2024","2540","Suite","C_Tests Three","android.RestTest","android.RestTest","GetBookDetails","GetBookDetails",""
+"passed","Tue May 07 09:00:13 CEST 2024","Tue May 07 09:00:28 CEST 2024","14739","Suite","A_Tests One","android.BlazeLoginTest","android.BlazeLoginTest","test_Login_And_Verify","test_Login_And_Verify",""

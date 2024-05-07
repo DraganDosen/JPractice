@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login to store]]>
+    </line>
+    <line>
+      <![CDATA[Check is logged]]>
+    </line>
+    <line>
+      <![CDATA[Click on Labtops]]>
+    </line>
+    <line>
+      <![CDATA[Find Lenovo]]>
+    </line>
+    <line>
+      <![CDATA[Use contact form]]>
+    </line>
+    <line>
+      <![CDATA[Login to store]]>
+    </line>
+    <line>
+      <![CDATA[Check is logged]]>
+    </line>
+    <line>
+      <![CDATA[Check About us]]>
+    </line>
+    <line>
+      <![CDATA[Login to store]]>
+    </line>
+    <line>
+      <![CDATA[Check is logged]]>
+    </line>
+    <line>
+      <![CDATA[Click on Labtops]]>
+    </line>
+    <line>
+      <![CDATA[Find Lenovo]]>
+    </line>
+    <line>
+      <![CDATA[Use contact form]]>
+    </line>
+    <line>
+      <![CDATA[Handle alert]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-06T23:06:29 CEST" name="Default suite" finished-at="2024-05-06T23:07:18 CEST" duration-ms="48486">
+    <groups>
+    </groups>
+    <test started-at="2024-05-06T23:06:29 CEST" name="Default test" finished-at="2024-05-06T23:07:18 CEST" duration-ms="48486">
+      <class name="android.BlazeLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:android.BlazeLoginTest@68d279ec]" started-at="2024-05-06T23:06:29 CEST" name="setup" finished-at="2024-05-06T23:06:29 CEST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login_And_Verify()[pri:0, instance:android.BlazeLoginTest@68d279ec]" started-at="2024-05-06T23:06:29 CEST" name="test_Login_And_Verify" finished-at="2024-05-06T23:06:43 CEST" duration-ms="13973" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to store]]>
+            </line>
+            <line>
+              <![CDATA[Check is logged]]>
+            </line>
+            <line>
+              <![CDATA[Click on Labtops]]>
+            </line>
+            <line>
+              <![CDATA[Find Lenovo]]>
+            </line>
+            <line>
+              <![CDATA[Use contact form]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Login_And_Verify -->
+        <test-method signature="test_Login_And_Verify_About_Us()[pri:1, instance:android.BlazeLoginTest@68d279ec]" started-at="2024-05-06T23:06:44 CEST" name="test_Login_And_Verify_About_Us" finished-at="2024-05-06T23:07:03 CEST" duration-ms="19163" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to store]]>
+            </line>
+            <line>
+              <![CDATA[Check is logged]]>
+            </line>
+            <line>
+              <![CDATA[Check About us]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Login_And_Verify_About_Us -->
+        <test-method signature="test_Alert()[pri:2, instance:android.BlazeLoginTest@68d279ec]" started-at="2024-05-06T23:07:03 CEST" name="test_Alert" finished-at="2024-05-06T23:07:18 CEST" duration-ms="15217" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to store]]>
+            </line>
+            <line>
+              <![CDATA[Check is logged]]>
+            </line>
+            <line>
+              <![CDATA[Click on Labtops]]>
+            </line>
+            <line>
+              <![CDATA[Find Lenovo]]>
+            </line>
+            <line>
+              <![CDATA[Use contact form]]>
+            </line>
+            <line>
+              <![CDATA[Handle alert]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Alert -->
+      </class> <!-- android.BlazeLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
