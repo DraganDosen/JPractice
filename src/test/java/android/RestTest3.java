@@ -37,7 +37,7 @@ Assert.assertEquals(statusCode /*actual value*/, 200 /*expected value*/,
 }
 	
 	@Test
-    public void GetBookDetailsNo2()
+    public void GetBookDetailsNo8()
 {  
  // Specify the base URL to the RESTful web service
  RestAssured.baseURI = "https://demoqa.com/BookStore/v1/Books";
