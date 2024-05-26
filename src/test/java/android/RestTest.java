@@ -79,7 +79,9 @@ System.out.println("timeCode is: " + timeCode);
     if (timeCode >= 1400) {
     	Assert.fail("time is not good");
     }
-  
+    if (timeCode >= 1400) {
+    	Assert.fail("time is not good");
+    }
     
       
    

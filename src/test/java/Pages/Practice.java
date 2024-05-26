@@ -7,22 +7,38 @@ public class Practice {
     ArrayList<Character> dupl = new ArrayList<Character>();
     ArrayList<Character> withoutDupl = new ArrayList<Character>();
     ArrayList<String> listOfString = new ArrayList<String>();
-    ArrayList<Integer> listOfInt = new ArrayList<Integer>();
+     List<Integer> listOfInt = new ArrayList<Integer>();
     ArrayList<Integer> listOfInt1 = new ArrayList<Integer>();
     ArrayList<Integer> listOfInt2 = new ArrayList<Integer>();
     ArrayList<Character> listFromString = new ArrayList<Character>();
     ArrayList<Character> reverseListFromString = new ArrayList<Character>();
     String [] inputList = {"Jan","Feb","Mar","Apr","Maj","Jun","Jul","Avg","Sep","Okt","Nov","Dec"};
+    Integer[] intList = {11,2,3,5,9};
     Arrays inputListSorted;
 
     // Form a list of numbers from 0-9.
-    public void createList() {
+    public  void createList() {
     	listOfInt.clear();
-        for (int i = 0; i < 20; i++) {
+    	
+        for (int i = 0; i < 11; i++) {
              Random rand = new Random();
-             int randomElement = rand.nextInt(5,20);
+             int randomElement = rand.nextInt(5,50);
             listOfInt.add(randomElement);
-
+            System.out.println("random element is : " + randomElement);
+            System.out.println("elem when reading from list is : " + listOfInt.get(i));
+            System.out.println("Input list : " + listOfInt);
+            listOfInt.add(randomElement);
+            System.out.println("Input list after adding again : " + listOfInt);
+            listOfInt.remove(i+1);
+            System.out.println("Input list after remove : " + listOfInt);
+        }
+        int i=intList.length;
+        System.out.println("i is: "+i);
+        
+        while(i>0) {
+        	System.out.println(i);
+        	System.out.println("intList elem is: "+intList[i-1]);
+        	i --;
         }
         System.out.println("Input list : " + listOfInt);
     }
@@ -374,7 +390,7 @@ public class Practice {
     public static void main(String[] args) {
         int number = 24598543;
         Practice obj = new Practice();
-        //obj.createList();
+        obj.createList();
         // obj.addDuplicatesToList();
         List<Integer> ar = new ArrayList<>();
         ar.add(1);ar.add(1);ar.add(2);ar.add(4);ar.add(3);ar.add(3);ar.add(6);ar.add(6);ar.add(3);
@@ -400,7 +416,7 @@ public class Practice {
         //System.out.println("\nFiltered duplicates : " + processList(list));
         SumOfValues(423);
         findStringDuplicatesAgain("acddmnvv");
-        findStringDuplicatesInteger(112344);
+        findStringDuplicatesInteger(112344); 
     }
 
 
