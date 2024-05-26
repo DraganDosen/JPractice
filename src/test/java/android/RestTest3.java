@@ -66,6 +66,7 @@ Assert.assertEquals(statusCode /*actual value*/, 200 /*expected value*/,
  // Specify the base URL to the RESTful web service
  RestAssured.baseURI = "https://demoqa.com/BookStore/v1/Books";
  // Get the RequestSpecification of the request to be sent to the server
+//test
  RequestSpecification httpRequest = RestAssured.given();
 
  Response response = httpRequest.get("");
