@@ -1,25 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Set Username]]>
+    </line>
+    <line>
+      <![CDATA[Set Password]]>
+    </line>
+    <line>
+      <![CDATA[Click on Labtops]]>
+    </line>
+    <line>
+      <![CDATA[Find Dell device]]>
+    </line>
+    <line>
+      <![CDATA[Go to chart]]>
+    </line>
+    <line>
+      <![CDATA[Log Out]]>
+    </line>
+    <line>
+      <![CDATA[Verify Log Out]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-05-26T10:28:55 CEST" name="Default suite" finished-at="2024-05-26T10:28:59 CEST" duration-ms="4223">
+  <suite started-at="2024-05-26T15:54:23 CEST" name="Default suite" finished-at="2024-05-26T15:54:46 CEST" duration-ms="23321">
     <groups>
     </groups>
-    <test started-at="2024-05-26T10:28:55 CEST" name="Default test" finished-at="2024-05-26T10:28:59 CEST" duration-ms="4223">
-      <class name="android.RestTest">
-        <test-method signature="GetBookDetails()[pri:0, instance:android.RestTest@6cdba6dc]" started-at="2024-05-26T10:28:55 CEST" name="GetBookDetails" finished-at="2024-05-26T10:28:59 CEST" duration-ms="3367" status="PASS">
+    <test started-at="2024-05-26T15:54:23 CEST" name="Default test" finished-at="2024-05-26T15:54:46 CEST" duration-ms="23321">
+      <class name="android.BlazeFindAndPurchaseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:android.BlazeFindAndPurchaseTest@662706a7]" started-at="2024-05-26T15:54:23 CEST" name="setup" finished-at="2024-05-26T15:54:23 CEST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetBookDetails -->
-        <test-method signature="GetBookDetailsNo2()[pri:0, instance:android.RestTest@6cdba6dc]" started-at="2024-05-26T10:28:59 CEST" name="GetBookDetailsNo2" finished-at="2024-05-26T10:28:59 CEST" duration-ms="438" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="test_Find_Purchase()[pri:0, instance:android.BlazeFindAndPurchaseTest@662706a7]" started-at="2024-05-26T15:54:23 CEST" name="test_Find_Purchase" finished-at="2024-05-26T15:54:46 CEST" duration-ms="23172" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Set Username]]>
+            </line>
+            <line>
+              <![CDATA[Set Password]]>
+            </line>
+            <line>
+              <![CDATA[Click on Labtops]]>
+            </line>
+            <line>
+              <![CDATA[Find Dell device]]>
+            </line>
+            <line>
+              <![CDATA[Go to chart]]>
+            </line>
+            <line>
+              <![CDATA[Log Out]]>
+            </line>
+            <line>
+              <![CDATA[Verify Log Out]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- GetBookDetailsNo2 -->
-        <test-method signature="GetBookDetailsNo23()[pri:0, instance:android.RestTest@6cdba6dc]" started-at="2024-05-26T10:28:59 CEST" name="GetBookDetailsNo23" finished-at="2024-05-26T10:28:59 CEST" duration-ms="318" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- GetBookDetailsNo23 -->
-      </class> <!-- android.RestTest -->
+        </test-method> <!-- test_Find_Purchase -->
+      </class> <!-- android.BlazeFindAndPurchaseTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
