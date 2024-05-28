@@ -6,6 +6,7 @@ public class practice1 {
 		int a= param;
 		int sum =0;
 		int b;
+		int f=0;
 		System.out.println(a);
 		
 		
