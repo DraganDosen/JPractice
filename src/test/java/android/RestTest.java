@@ -87,6 +87,31 @@ System.out.println("timeCode is: " + timeCode);
    
 }
 
+	@Test
+    public void GetBookDetailsNo24()
+{  
+ // Specify the base URL to the RESTful web service
+ RestAssured.baseURI = "https://demoqa.com/BookStore/v1/Books";
+ // Get the RequestSpecification of the request to be sent to the server
+ RequestSpecification httpRequest = RestAssured.given();
 
+ Response response = httpRequest.get("");
+
+ // Get the status code of the request. 
+ //If request is successful, status code will be 200
+long timeCode = response.getTime();
+
+System.out.println("timeCode is: " + timeCode);
+	
+    if (timeCode >= 1400) {
+    	Assert.fail("time is not good");
+    }
+    if (timeCode >= 1400) {
+    	Assert.fail("time is not good");
+    }
+    
+      
+   
+}
 }
 
