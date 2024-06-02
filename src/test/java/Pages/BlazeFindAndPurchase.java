@@ -22,6 +22,7 @@ public class BlazeFindAndPurchase {
 	    By login = By.xpath("/html/body/div[3]/div/div/div[3]/button[2]");
 	 
 	    By loginButton = By.id("login2");
+	    By loginButton = By.id("login3");
 	    
 	    By userName = By.id("loginusername");
 
