@@ -23,7 +23,7 @@ public class BlazeFindAndPurchase {
 	 
 	    By loginButton = By.id("login2");
 	         
-      By userName = By.id("loginusername");
+        By userName = By.id("loginusername");
 
 	    By password = By.id("loginpassword");
 
