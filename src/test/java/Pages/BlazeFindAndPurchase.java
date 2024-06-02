@@ -26,6 +26,7 @@ public class BlazeFindAndPurchase {
 	    By loginButton1 = By.id("login31");
 	    By loginButton2 = By.id("login31");
 	    By loginButton3 = By.id("login31");
+	    By loginButton4 = By.id("login31");
 
 	    
 
