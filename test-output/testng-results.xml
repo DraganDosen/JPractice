@@ -1,29 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Login to store]]>
+    </line>
+    <line>
+      <![CDATA[Check is logged]]>
+    </line>
+    <line>
+      <![CDATA[Click on Labtops]]>
+    </line>
+    <line>
+      <![CDATA[Find Lenovo]]>
+    </line>
+    <line>
+      <![CDATA[Use contact form]]>
+    </line>
+    <line>
+      <![CDATA[Login to store]]>
+    </line>
+    <line>
+      <![CDATA[Check is logged]]>
+    </line>
+    <line>
+      <![CDATA[Check About us]]>
+    </line>
+    <line>
+      <![CDATA[Login to store]]>
+    </line>
+    <line>
+      <![CDATA[Check is logged]]>
+    </line>
+    <line>
+      <![CDATA[Click on Labtops]]>
+    </line>
+    <line>
+      <![CDATA[Find Lenovo]]>
+    </line>
+    <line>
+      <![CDATA[Use contact form]]>
+    </line>
+    <line>
+      <![CDATA[Handle alert]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-05-28T20:35:15 CEST" name="Default suite" finished-at="2024-05-28T20:35:18 CEST" duration-ms="3214">
+  <suite started-at="2024-06-04T20:11:28 CEST" name="Default suite" finished-at="2024-06-04T20:12:15 CEST" duration-ms="47197">
     <groups>
     </groups>
-    <test started-at="2024-05-28T20:35:15 CEST" name="Default test" finished-at="2024-05-28T20:35:18 CEST" duration-ms="3214">
-      <class name="android.RestTest">
-        <test-method signature="GetBookDetails()[pri:0, instance:android.RestTest@7d3d101b]" started-at="2024-05-28T20:35:15 CEST" name="GetBookDetails" finished-at="2024-05-28T20:35:17 CEST" duration-ms="2547" status="PASS">
+    <test started-at="2024-06-04T20:11:28 CEST" name="Default test" finished-at="2024-06-04T20:12:15 CEST" duration-ms="47197">
+      <class name="android.BlazeLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:android.BlazeLoginTest@f99f5e0]" started-at="2024-06-04T20:11:28 CEST" name="setup" finished-at="2024-06-04T20:11:28 CEST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetBookDetails -->
-        <test-method signature="GetBookDetailsNo2()[pri:0, instance:android.RestTest@7d3d101b]" started-at="2024-05-28T20:35:17 CEST" name="GetBookDetailsNo2" finished-at="2024-05-28T20:35:18 CEST" duration-ms="183" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login_And_Verify()[pri:1, instance:android.BlazeLoginTest@f99f5e0]" started-at="2024-06-04T20:11:28 CEST" name="test_Login_And_Verify" finished-at="2024-06-04T20:11:44 CEST" duration-ms="16269" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to store]]>
+            </line>
+            <line>
+              <![CDATA[Check is logged]]>
+            </line>
+            <line>
+              <![CDATA[Click on Labtops]]>
+            </line>
+            <line>
+              <![CDATA[Find Lenovo]]>
+            </line>
+            <line>
+              <![CDATA[Use contact form]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Login_And_Verify -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:android.BlazeLoginTest@f99f5e0]" started-at="2024-06-04T20:11:44 CEST" name="afterTest" finished-at="2024-06-04T20:11:44 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetBookDetailsNo2 -->
-        <test-method signature="GetBookDetailsNo23()[pri:0, instance:android.RestTest@7d3d101b]" started-at="2024-05-28T20:35:18 CEST" name="GetBookDetailsNo23" finished-at="2024-05-28T20:35:18 CEST" duration-ms="165" status="PASS">
+        </test-method> <!-- afterTest -->
+        <test-method signature="test_Login_And_Verify_About_Us()[pri:2, instance:android.BlazeLoginTest@f99f5e0]" started-at="2024-06-04T20:11:44 CEST" name="test_Login_And_Verify_About_Us" finished-at="2024-06-04T20:12:01 CEST" duration-ms="17409" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to store]]>
+            </line>
+            <line>
+              <![CDATA[Check is logged]]>
+            </line>
+            <line>
+              <![CDATA[Check About us]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Login_And_Verify_About_Us -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:android.BlazeLoginTest@f99f5e0]" started-at="2024-06-04T20:12:01 CEST" name="afterTest" finished-at="2024-06-04T20:12:01 CEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetBookDetailsNo23 -->
-        <test-method signature="GetBookDetailsNo24()[pri:0, instance:android.RestTest@7d3d101b]" started-at="2024-05-28T20:35:18 CEST" name="GetBookDetailsNo24" finished-at="2024-05-28T20:35:18 CEST" duration-ms="182" status="PASS">
+        </test-method> <!-- afterTest -->
+        <test-method signature="test_Alert()[pri:3, instance:android.BlazeLoginTest@f99f5e0]" started-at="2024-06-04T20:12:01 CEST" name="test_Alert" finished-at="2024-06-04T20:12:15 CEST" duration-ms="13344" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login to store]]>
+            </line>
+            <line>
+              <![CDATA[Check is logged]]>
+            </line>
+            <line>
+              <![CDATA[Click on Labtops]]>
+            </line>
+            <line>
+              <![CDATA[Find Lenovo]]>
+            </line>
+            <line>
+              <![CDATA[Use contact form]]>
+            </line>
+            <line>
+              <![CDATA[Handle alert]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_Alert -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:android.BlazeLoginTest@f99f5e0]" started-at="2024-06-04T20:12:15 CEST" name="afterTest" finished-at="2024-06-04T20:12:15 CEST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GetBookDetailsNo24 -->
-      </class> <!-- android.RestTest -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- android.BlazeLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

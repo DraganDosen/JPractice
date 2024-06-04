@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [ Dragan Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="A_Tests One(failed)" verbose="0">
+    <classes>
+      <class name="android.BlazeLoginTest">
+        <methods>
+          <include name="test_Login_And_Verify"/>
+          <include name="setup"/>
+          <include name="test_Alert"/>
+          <include name="test_Login_And_Verify_About_Us"/>
+        </methods>
+      </class> <!-- android.BlazeLoginTest -->
+    </classes>
+  </test> <!-- A_Tests One(failed) -->
   <test thread-count="5" name="B_Tests Two(failed)" verbose="0">
     <classes>
       <class name="android.BlazeFindAndPurchaseTest">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7238.735" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.86" tests="11" errors="0" skipped="0" failures="4">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\draga\AppData\Local\Temp\surefire13698965307854146227\surefirebooter-20240529082823984_3.jar C:\Users\draga\AppData\Local\Temp\surefire13698965307854146227 2024-05-29T08-28-23_624-jvmRun1 surefire-20240529082823984_1tmp surefire_0-20240529082823984_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\draga\AppData\Local\Temp\surefire7724965480027980137\surefirebooter-20240604101808723_3.jar C:\Users\draga\AppData\Local\Temp\surefire7724965480027980137 2024-06-04T10-18-08_544-jvmRun1 surefire-20240604101808723_1tmp surefire_0-20240604101808723_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\draga\Documents\GitHub\JPractice\target\test-classes;C:\Users\draga\Documents\GitHub\JPractice\target\classes;C:\Users\draga\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\draga\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\draga\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\draga\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\draga\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\draga\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\draga\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\draga\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\draga\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\draga\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\draga\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\draga\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\draga\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\draga\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\draga\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\draga\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\draga\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\draga\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\draga\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\draga\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\draga\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\draga\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\draga\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\draga\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\draga\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\draga\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\draga\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\draga\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\draga\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\draga\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\draga\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\draga\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\draga\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\draga\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\draga\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\draga\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\draga\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\draga\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\draga\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\draga\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\draga\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\draga\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\draga\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\draga\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\draga\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\draga\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\draga\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\draga\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\draga\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\draga\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\draga\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\draga\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\draga\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\draga\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\draga\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\draga\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\draga\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\draga\AppData\Local\Temp\surefire13698965307854146227\surefirebooter-20240529082823984_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\draga\AppData\Local\Temp\surefire7724965480027980137\surefirebooter-20240604101808723_3.jar"/>
     <property name="user.script" value=""/>
     <property name="user.script.format" value="Latn"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,274 +62,394 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="test_Login_And_Verify" classname="android.BlazeLoginTest" time="29.238">
-    <system-out><![CDATA[Welcome dragan123
-dragan123
+  <testcase name="test_Login_And_Verify" classname="android.BlazeLoginTest" time="1.657">
+    <failure message="session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 123&#10;Current browser version is 125.0.2535.67 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DOSHENA&apos;, ip: &apos;192.168.1.62&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;&#10;Driver info: driver.version: EdgeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x00007FF7D66A5B82+59842]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D6634AB2+220434]&#10;	(No symbol) [0x00007FF7D645DCD7]&#10;	(No symbol) [0x00007FF7D6495E81]&#10;	(No symbol) [0x00007FF7D6495321]&#10;	(No symbol) [0x00007FF7D648FA00]&#10;	(No symbol) [0x00007FF7D648C2C0]&#10;	(No symbol) [0x00007FF7D64CDE97]&#10;	(No symbol) [0x00007FF7D64C3B93]&#10;	(No symbol) [0x00007FF7D649960E]&#10;	(No symbol) [0x00007FF7D64987CC]&#10;	(No symbol) [0x00007FF7D64991C1]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D68558FC+1052188]&#10;	(No symbol) [0x00007FF7D650FFC6]&#10;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65B150C+37916]&#10;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65A8E95+3493]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D6854865+1047941]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D663D2C1+255265]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66385B4+235540]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66386EB+235851]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D662FEE1+201025]&#10;	BaseThreadInitThunk [0x00007FFDC576257D+29]&#10;	RtlUserThreadStart [0x00007FFDC7A6AA48+40]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 123
+Current browser version is 125.0.2535.67 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DOSHENA', ip: '192.168.1.62', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D66A5B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D6634AB2+220434]
+	(No symbol) [0x00007FF7D645DCD7]
+	(No symbol) [0x00007FF7D6495E81]
+	(No symbol) [0x00007FF7D6495321]
+	(No symbol) [0x00007FF7D648FA00]
+	(No symbol) [0x00007FF7D648C2C0]
+	(No symbol) [0x00007FF7D64CDE97]
+	(No symbol) [0x00007FF7D64C3B93]
+	(No symbol) [0x00007FF7D649960E]
+	(No symbol) [0x00007FF7D64987CC]
+	(No symbol) [0x00007FF7D64991C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D68558FC+1052188]
+	(No symbol) [0x00007FF7D650FFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65B150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65A8E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D6854865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D663D2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66385B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66386EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D662FEE1+201025]
+	BaseThreadInitThunk [0x00007FFDC576257D+29]
+	RtlUserThreadStart [0x00007FFDC7A6AA48+40]
 
-
-
-
-
-PRODUCT STORE
-Home
-(current)
-Contact
-About us
-Cart
-
-Log out
-Welcome dragan123
-
-Previous
-Next
-CATEGORIES
-Phones
-Labtops is found
-Labtops is clicked
-32
-
-
-
-
-
-PRODUCT STORE
-Home
-(current)
-Contact
-About us
-Cart
-
-Log out
-Welcome dragan123
-
-Previous
-Next
-CATEGORIES
-Phones
-Laptops
-Monitors
-
-Sony vaio i5
-
-Sony vaio i7
-
-MacBook air
-
-Dell i7 8gb
-
-2017 Dell 15.6 Inch
-
-MacBook Pro
-Contact Form
-ceka ime da se pojavi
-vidi se kontakt forma
-]]></system-out>
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:144)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:574)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:662)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+	at android.BlazeLoginTest.test_Login_And_Verify(BlazeLoginTest.java:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting Microsoft Edge WebDriver 123.0.2420.81 (8acdca46cf48004ffbe58ea55a26ef75d019022e) on port 32187
+Starting Microsoft Edge WebDriver 123.0.2420.81 (8acdca46cf48004ffbe58ea55a26ef75d019022e) on port 9919
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1716964109.705][WARNING]: This version of Microsoft Edge WebDriver has not been tested with Microsoft Edge version 124.
-maj 29, 2024 8:28:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="test_Login_And_Verify_About_Us" classname="android.BlazeLoginTest" time="21.721">
-    <system-out><![CDATA[Welcome dragan123
-dragan123
-method  checkAboutUs
-waiting for about us and click
-]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 123.0.2420.81 (8acdca46cf48004ffbe58ea55a26ef75d019022e) on port 34427
+  <testcase name="test_Login_And_Verify_About_Us" classname="android.BlazeLoginTest" time="2.431">
+    <failure message="session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 123&#10;Current browser version is 125.0.2535.67 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DOSHENA&apos;, ip: &apos;192.168.1.62&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;&#10;Driver info: driver.version: EdgeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x00007FF7D66A5B82+59842]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D6634AB2+220434]&#10;	(No symbol) [0x00007FF7D645DCD7]&#10;	(No symbol) [0x00007FF7D6495E81]&#10;	(No symbol) [0x00007FF7D6495321]&#10;	(No symbol) [0x00007FF7D648FA00]&#10;	(No symbol) [0x00007FF7D648C2C0]&#10;	(No symbol) [0x00007FF7D64CDE97]&#10;	(No symbol) [0x00007FF7D64C3B93]&#10;	(No symbol) [0x00007FF7D649960E]&#10;	(No symbol) [0x00007FF7D64987CC]&#10;	(No symbol) [0x00007FF7D64991C1]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D68558FC+1052188]&#10;	(No symbol) [0x00007FF7D650FFC6]&#10;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65B150C+37916]&#10;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65A8E95+3493]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D6854865+1047941]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D663D2C1+255265]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66385B4+235540]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66386EB+235851]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D662FEE1+201025]&#10;	BaseThreadInitThunk [0x00007FFDC576257D+29]&#10;	RtlUserThreadStart [0x00007FFDC7A6AA48+40]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 123
+Current browser version is 125.0.2535.67 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DOSHENA', ip: '192.168.1.62', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D66A5B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D6634AB2+220434]
+	(No symbol) [0x00007FF7D645DCD7]
+	(No symbol) [0x00007FF7D6495E81]
+	(No symbol) [0x00007FF7D6495321]
+	(No symbol) [0x00007FF7D648FA00]
+	(No symbol) [0x00007FF7D648C2C0]
+	(No symbol) [0x00007FF7D64CDE97]
+	(No symbol) [0x00007FF7D64C3B93]
+	(No symbol) [0x00007FF7D649960E]
+	(No symbol) [0x00007FF7D64987CC]
+	(No symbol) [0x00007FF7D64991C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D68558FC+1052188]
+	(No symbol) [0x00007FF7D650FFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65B150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65A8E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D6854865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D663D2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66385B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66386EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D662FEE1+201025]
+	BaseThreadInitThunk [0x00007FFDC576257D+29]
+	RtlUserThreadStart [0x00007FFDC7A6AA48+40]
+
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:144)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:574)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:662)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+	at android.BlazeLoginTest.test_Login_And_Verify_About_Us(BlazeLoginTest.java:73)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 123.0.2420.81 (8acdca46cf48004ffbe58ea55a26ef75d019022e) on port 23100
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1716964137.661][WARNING]: This version of Microsoft Edge WebDriver has not been tested with Microsoft Edge version 124.
-maj 29, 2024 8:28:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-maj 29, 2024 8:29:16 AM org.openqa.selenium.os.OsProcess destroy
-SEVERE: Unable to kill process Process[pid=97364, exitValue=1]
 ]]></system-err>
   </testcase>
-  <testcase name="test_Alert" classname="android.BlazeLoginTest" time="7150.914">
-    <system-out><![CDATA[Welcome dragan123
-dragan123
+  <testcase name="test_Alert" classname="android.BlazeLoginTest" time="2.663">
+    <failure message="session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 123&#10;Current browser version is 125.0.2535.67 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DOSHENA&apos;, ip: &apos;192.168.1.62&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;&#10;Driver info: driver.version: EdgeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x00007FF7D66A5B82+59842]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D6634AB2+220434]&#10;	(No symbol) [0x00007FF7D645DCD7]&#10;	(No symbol) [0x00007FF7D6495E81]&#10;	(No symbol) [0x00007FF7D6495321]&#10;	(No symbol) [0x00007FF7D648FA00]&#10;	(No symbol) [0x00007FF7D648C2C0]&#10;	(No symbol) [0x00007FF7D64CDE97]&#10;	(No symbol) [0x00007FF7D64C3B93]&#10;	(No symbol) [0x00007FF7D649960E]&#10;	(No symbol) [0x00007FF7D64987CC]&#10;	(No symbol) [0x00007FF7D64991C1]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D68558FC+1052188]&#10;	(No symbol) [0x00007FF7D650FFC6]&#10;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65B150C+37916]&#10;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65A8E95+3493]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D6854865+1047941]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D663D2C1+255265]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66385B4+235540]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66386EB+235851]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D662FEE1+201025]&#10;	BaseThreadInitThunk [0x00007FFDC576257D+29]&#10;	RtlUserThreadStart [0x00007FFDC7A6AA48+40]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 123
+Current browser version is 125.0.2535.67 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DOSHENA', ip: '192.168.1.62', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D66A5B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D6634AB2+220434]
+	(No symbol) [0x00007FF7D645DCD7]
+	(No symbol) [0x00007FF7D6495E81]
+	(No symbol) [0x00007FF7D6495321]
+	(No symbol) [0x00007FF7D648FA00]
+	(No symbol) [0x00007FF7D648C2C0]
+	(No symbol) [0x00007FF7D64CDE97]
+	(No symbol) [0x00007FF7D64C3B93]
+	(No symbol) [0x00007FF7D649960E]
+	(No symbol) [0x00007FF7D64987CC]
+	(No symbol) [0x00007FF7D64991C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D68558FC+1052188]
+	(No symbol) [0x00007FF7D650FFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65B150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65A8E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D6854865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D663D2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66385B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66386EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D662FEE1+201025]
+	BaseThreadInitThunk [0x00007FFDC576257D+29]
+	RtlUserThreadStart [0x00007FFDC7A6AA48+40]
 
-
-
-
-
-PRODUCT STORE
-Home
-(current)
-Contact
-About us
-Cart
-
-Log out
-Welcome dragan123
-
-Previous
-Next
-CATEGORIES
-Phones
-Labtops is found
-Labtops is clicked
-32
-
-
-
-
-
-PRODUCT STORE
-Home
-(current)
-Contact
-About us
-Cart
-
-Log out
-Welcome dragan123
-
-Previous
-Next
-CATEGORIES
-Phones
-Laptops
-Monitors
-
-Sony vaio i5
-
-Sony vaio i7
-
-MacBook air
-
-Dell i7 8gb
-
-2017 Dell 15.6 Inch
-
-MacBook Pro
-Contact Form
-ceka ime da se pojavi
-vidi se kontakt forma
-Thanks for the message!!
-]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 123.0.2420.81 (8acdca46cf48004ffbe58ea55a26ef75d019022e) on port 59512
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:144)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:574)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:662)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+	at android.BlazeLoginTest.test_Alert(BlazeLoginTest.java:104)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 123.0.2420.81 (8acdca46cf48004ffbe58ea55a26ef75d019022e) on port 16415
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1716971274.946][WARNING]: This version of Microsoft Edge WebDriver has not been tested with Microsoft Edge version 124.
-maj 29, 2024 10:27:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="test_Find_Purchase" classname="android.BlazeFindAndPurchaseTest" time="31.826">
-    <system-out><![CDATA[***login method***
-***clickLabtops method***
+  <testcase name="test_Find_Purchase" classname="android.BlazeFindAndPurchaseTest" time="2.366">
+    <failure message="session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 123&#10;Current browser version is 125.0.2535.67 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DOSHENA&apos;, ip: &apos;192.168.1.62&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;&#10;Driver info: driver.version: EdgeDriver&#10;remote stacktrace: 	GetHandleVerifier [0x00007FF7D66A5B82+59842]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D6634AB2+220434]&#10;	(No symbol) [0x00007FF7D645DCD7]&#10;	(No symbol) [0x00007FF7D6495E81]&#10;	(No symbol) [0x00007FF7D6495321]&#10;	(No symbol) [0x00007FF7D648FA00]&#10;	(No symbol) [0x00007FF7D648C2C0]&#10;	(No symbol) [0x00007FF7D64CDE97]&#10;	(No symbol) [0x00007FF7D64C3B93]&#10;	(No symbol) [0x00007FF7D649960E]&#10;	(No symbol) [0x00007FF7D64987CC]&#10;	(No symbol) [0x00007FF7D64991C1]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D68558FC+1052188]&#10;	(No symbol) [0x00007FF7D650FFC6]&#10;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65B150C+37916]&#10;	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65A8E95+3493]&#10;	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D6854865+1047941]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D663D2C1+255265]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66385B4+235540]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66386EB+235851]&#10;	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D662FEE1+201025]&#10;	BaseThreadInitThunk [0x00007FFDC576257D+29]&#10;	RtlUserThreadStart [0x00007FFDC7A6AA48+40]&#10;" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 123
+Current browser version is 125.0.2535.67 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DOSHENA', ip: '192.168.1.62', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22'
+Driver info: driver.version: EdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D66A5B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D6634AB2+220434]
+	(No symbol) [0x00007FF7D645DCD7]
+	(No symbol) [0x00007FF7D6495E81]
+	(No symbol) [0x00007FF7D6495321]
+	(No symbol) [0x00007FF7D648FA00]
+	(No symbol) [0x00007FF7D648C2C0]
+	(No symbol) [0x00007FF7D64CDE97]
+	(No symbol) [0x00007FF7D64C3B93]
+	(No symbol) [0x00007FF7D649960E]
+	(No symbol) [0x00007FF7D64987CC]
+	(No symbol) [0x00007FF7D64991C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D68558FC+1052188]
+	(No symbol) [0x00007FF7D650FFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65B150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65A8E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D6854865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D663D2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66385B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66386EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D662FEE1+201025]
+	BaseThreadInitThunk [0x00007FFDC576257D+29]
+	RtlUserThreadStart [0x00007FFDC7A6AA48+40]
 
-
-
-
-
-PRODUCT STORE
-Home
-(current)
-Contact
-About us
-Cart
-
-Log out
-Welcome dragan123
-
-Previous
-Next
-CATEGORIES
-Phones
-Labtops is found
-Labtops is clicked
-***findProduct method***
-32
-
-
-
-
-
-PRODUCT STORE
-Home
-(current)
-Contact
-About us
-Cart
-
-Log out
-Welcome dragan123
-
-Previous
-Next
-CATEGORIES
-Phones
-Laptops
-Monitors
-
-Sony vaio i5
-
-Sony vaio i7
-
-MacBook air
-
-Dell i7 8gb
-
-dell is found
-webelement is clicked
-dell is at chart
-Product added.
-***goToChart method***
-go to chart
-wait for element is visible
-Chart is opened
-Place order button is clicked
-Product is purchased
-***LogOut method***
-***Verify LogOut method***
-
-
-
-
-
-PRODUCT STORE
-Home
-(current)
-Contact
-About us
-Cart
-Log in
-]]></system-out>
-    <system-err><![CDATA[Starting Microsoft Edge WebDriver 123.0.2420.81 (8acdca46cf48004ffbe58ea55a26ef75d019022e) on port 29645
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:144)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:574)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:662)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:96)
+	at android.BlazeFindAndPurchaseTest.test_Find_Purchase(BlazeFindAndPurchaseTest.java:31)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 123.0.2420.81 (8acdca46cf48004ffbe58ea55a26ef75d019022e) on port 20793
 To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
 
 Only local connections are allowed.
 Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
 
 Microsoft Edge WebDriver was started successfully.
-[1716971310.418][WARNING]: This version of Microsoft Edge WebDriver has not been tested with Microsoft Edge version 124.
-maj 29, 2024 10:28:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-maj 29, 2024 10:28:59 AM org.openqa.selenium.os.OsProcess destroy
-SEVERE: Unable to kill process Process[pid=102908, exitValue=1]
 ]]></system-err>
   </testcase>
-  <testcase name="GetBookDetails" classname="android.RestTest" time="2.742">
+  <testcase name="GetBookDetails" classname="android.RestTest" time="2.617">
     <system-out><![CDATA[Learning JavaScript Design Patterns
 status code is: 200
 body is: {
@@ -426,7 +546,7 @@ body is: {
 }
 ]]></system-out>
   </testcase>
-  <testcase name="GetBookDetailsNo2" classname="android.RestTest" time="0.204">
+  <testcase name="GetBookDetailsNo2" classname="android.RestTest" time="0.237">
     <system-out><![CDATA[Git Pocket Guide
 status code is: 200
 body is: {
@@ -523,15 +643,15 @@ body is: {
 }
 ]]></system-out>
   </testcase>
-  <testcase name="GetBookDetailsNo23" classname="android.RestTest" time="0.173">
-    <system-out><![CDATA[timeCode is: 157
+  <testcase name="GetBookDetailsNo23" classname="android.RestTest" time="0.188">
+    <system-out><![CDATA[timeCode is: 169
 ]]></system-out>
   </testcase>
-  <testcase name="GetBookDetailsNo24" classname="android.RestTest" time="0.141">
-    <system-out><![CDATA[timeCode is: 157
+  <testcase name="GetBookDetailsNo24" classname="android.RestTest" time="0.182">
+    <system-out><![CDATA[timeCode is: 177
 ]]></system-out>
   </testcase>
-  <testcase name="GetBookDetails" classname="android.RestTest2" time="0.188">
+  <testcase name="GetBookDetails" classname="android.RestTest2" time="0.194">
     <system-out><![CDATA[A Modern Introduction to Programming
 status code is: 200
 body is: {
@@ -628,7 +748,7 @@ body is: {
 }
 ]]></system-out>
   </testcase>
-  <testcase name="GetBookDetailsNo2" classname="android.RestTest2" time="0.213">
+  <testcase name="GetBookDetailsNo2" classname="android.RestTest2" time="0.186">
     <system-out><![CDATA[Git Pocket Guide
 status code is: 200
 body is: {
@@ -725,8 +845,8 @@ body is: {
 }
 ]]></system-out>
   </testcase>
-  <testcase name="GetBookDetailsNo23" classname="android.RestTest2" time="0.162">
-    <system-out><![CDATA[timeCode is: 147
+  <testcase name="GetBookDetailsNo23" classname="android.RestTest2" time="0.179">
+    <system-out><![CDATA[timeCode is: 167
 ]]></system-out>
   </testcase>
 </testsuite>

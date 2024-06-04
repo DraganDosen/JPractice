@@ -4,31 +4,28 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import Pages.BlazeFindAndPurchase;
 import Pages.LoginParamBlaze;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class BlazeFindAndPurchaseTest {
 	
-	@BeforeTest
 
-    public void setup(){
-		
-	
-	}
+	 WebDriver driver;
+    @BeforeTest
+    public void setup() {
+        WebDriverManager.edgedriver().setup();
+        driver = new EdgeDriver();
+    }
     @Test(priority=0)
 
     public void test_Find_Purchase(){
-    	//WebDriverManager.chromedriver().setup();
-	    //WebDriver driver = new ChromeDriver();
-    	System.setProperty("webdriver.edge.driver", "C:\\Users\\draga\\Downloads\\edgedriver_win64\\msedgedriver.exe");
-    	//EdgeOptions edgeOptions = new EdgeOptions();
-    	WebDriver driver = new EdgeDriver();
+    	
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         driver.get("https://demoblaze.com/");
@@ -53,8 +50,12 @@ public class BlazeFindAndPurchaseTest {
 	   System.out.println("***Verify LogOut method***");
 	   objFindandPurchase.verifyLogOut();
 	
+       // driver.quit();
+    } 
+    @AfterTest
+    void tearDown() {
         driver.quit();
-    }                                               
+    }
 
 
 }

@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-_Dragan_Suite" class="navigator-link">
-              <span class="suite-name border-passed"> Dragan Suite</span>
+              <span class="suite-name border-failed"> Dragan Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">11 methods, 4 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-_Dragan_Suite" class="hide-methods failed suite-_Dragan_Suite"> (hide)</a> <!-- hide-methods failed suite-_Dragan_Suite -->
+                      <a href="#" panel-name="suite-_Dragan_Suite" class="show-methods failed suite-_Dragan_Suite"> (show)</a> <!-- show-methods failed suite-_Dragan_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-_Dragan_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Dragan_Suite" title="android.BlazeLoginTest" class="method navigator-link" hash-for-method="test_Alert">test_Alert</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Dragan_Suite" title="android.BlazeFindAndPurchaseTest" class="method navigator-link" hash-for-method="test_Find_Purchase">test_Find_Purchase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Dragan_Suite" title="android.BlazeLoginTest" class="method navigator-link" hash-for-method="test_Login_And_Verify">test_Login_And_Verify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-_Dragan_Suite" title="android.BlazeLoginTest" class="method navigator-link" hash-for-method="test_Login_And_Verify_About_Us">test_Login_And_Verify_About_Us</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-_Dragan_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -135,26 +164,6 @@
                         <a href="#" panel-name="suite-_Dragan_Suite" title="android.RestTest" class="method navigator-link" hash-for-method="GetBookDetailsNo24">GetBookDetailsNo24</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-_Dragan_Suite" title="android.BlazeLoginTest" class="method navigator-link" hash-for-method="test_Alert">test_Alert</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-_Dragan_Suite" title="android.BlazeFindAndPurchaseTest" class="method navigator-link" hash-for-method="test_Find_Purchase">test_Find_Purchase</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-_Dragan_Suite" title="android.BlazeLoginTest" class="method navigator-link" hash-for-method="test_Login_And_Verify">test_Login_And_Verify</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-_Dragan_Suite" title="android.BlazeLoginTest" class="method navigator-link" hash-for-method="test_Login_And_Verify_About_Us">test_Login_And_Verify_About_Us</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-_Dragan_Suite -->
                   </li>
                 </ul>
@@ -167,6 +176,266 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-_Dragan_Suite" class="panel _Dragan_Suite">
+          <div class="suite-_Dragan_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">android.BlazeFindAndPurchaseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Find_Purchase">
+                  </a> <!-- test_Find_Purchase -->
+                  <span class="method-name">test_Find_Purchase</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 123
+Current browser version is 125.0.2535.67 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOSHENA&apos;, ip: &apos;192.168.1.62&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;
+Driver info: driver.version: EdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D66A5B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D6634AB2+220434]
+	(No symbol) [0x00007FF7D645DCD7]
+	(No symbol) [0x00007FF7D6495E81]
+	(No symbol) [0x00007FF7D6495321]
+	(No symbol) [0x00007FF7D648FA00]
+	(No symbol) [0x00007FF7D648C2C0]
+	(No symbol) [0x00007FF7D64CDE97]
+	(No symbol) [0x00007FF7D64C3B93]
+	(No symbol) [0x00007FF7D649960E]
+	(No symbol) [0x00007FF7D64987CC]
+	(No symbol) [0x00007FF7D64991C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D68558FC+1052188]
+	(No symbol) [0x00007FF7D650FFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65B150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65A8E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D6854865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D663D2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66385B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66386EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D662FEE1+201025]
+	BaseThreadInitThunk [0x00007FFDC576257D+29]
+	RtlUserThreadStart [0x00007FFDC7A6AA48+40]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:144)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:574)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:662)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:96)
+	at android.BlazeFindAndPurchaseTest.test_Find_Purchase(BlazeFindAndPurchaseTest.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Dragan_Suite-class-failed -->
+          <div class="suite-_Dragan_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">android.BlazeLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Alert">
+                  </a> <!-- test_Alert -->
+                  <span class="method-name">test_Alert</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 123
+Current browser version is 125.0.2535.67 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOSHENA&apos;, ip: &apos;192.168.1.62&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;
+Driver info: driver.version: EdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D66A5B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D6634AB2+220434]
+	(No symbol) [0x00007FF7D645DCD7]
+	(No symbol) [0x00007FF7D6495E81]
+	(No symbol) [0x00007FF7D6495321]
+	(No symbol) [0x00007FF7D648FA00]
+	(No symbol) [0x00007FF7D648C2C0]
+	(No symbol) [0x00007FF7D64CDE97]
+	(No symbol) [0x00007FF7D64C3B93]
+	(No symbol) [0x00007FF7D649960E]
+	(No symbol) [0x00007FF7D64987CC]
+	(No symbol) [0x00007FF7D64991C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D68558FC+1052188]
+	(No symbol) [0x00007FF7D650FFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65B150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65A8E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D6854865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D663D2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66385B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66386EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D662FEE1+201025]
+	BaseThreadInitThunk [0x00007FFDC576257D+29]
+	RtlUserThreadStart [0x00007FFDC7A6AA48+40]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:144)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:574)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:662)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:96)
+	at android.BlazeLoginTest.test_Alert(BlazeLoginTest.java:104)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login_And_Verify">
+                  </a> <!-- test_Login_And_Verify -->
+                  <span class="method-name">test_Login_And_Verify</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 123
+Current browser version is 125.0.2535.67 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOSHENA&apos;, ip: &apos;192.168.1.62&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;
+Driver info: driver.version: EdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D66A5B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D6634AB2+220434]
+	(No symbol) [0x00007FF7D645DCD7]
+	(No symbol) [0x00007FF7D6495E81]
+	(No symbol) [0x00007FF7D6495321]
+	(No symbol) [0x00007FF7D648FA00]
+	(No symbol) [0x00007FF7D648C2C0]
+	(No symbol) [0x00007FF7D64CDE97]
+	(No symbol) [0x00007FF7D64C3B93]
+	(No symbol) [0x00007FF7D649960E]
+	(No symbol) [0x00007FF7D64987CC]
+	(No symbol) [0x00007FF7D64991C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D68558FC+1052188]
+	(No symbol) [0x00007FF7D650FFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65B150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65A8E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D6854865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D663D2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66385B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66386EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D662FEE1+201025]
+	BaseThreadInitThunk [0x00007FFDC576257D+29]
+	RtlUserThreadStart [0x00007FFDC7A6AA48+40]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:144)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:574)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:662)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:96)
+	at android.BlazeLoginTest.test_Login_And_Verify(BlazeLoginTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Login_And_Verify_About_Us">
+                  </a> <!-- test_Login_And_Verify_About_Us -->
+                  <span class="method-name">test_Login_And_Verify_About_Us</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 123
+Current browser version is 125.0.2535.67 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DOSHENA&apos;, ip: &apos;192.168.1.62&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22&apos;
+Driver info: driver.version: EdgeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF7D66A5B82+59842]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D6634AB2+220434]
+	(No symbol) [0x00007FF7D645DCD7]
+	(No symbol) [0x00007FF7D6495E81]
+	(No symbol) [0x00007FF7D6495321]
+	(No symbol) [0x00007FF7D648FA00]
+	(No symbol) [0x00007FF7D648C2C0]
+	(No symbol) [0x00007FF7D64CDE97]
+	(No symbol) [0x00007FF7D64C3B93]
+	(No symbol) [0x00007FF7D649960E]
+	(No symbol) [0x00007FF7D64987CC]
+	(No symbol) [0x00007FF7D64991C1]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D68558FC+1052188]
+	(No symbol) [0x00007FF7D650FFC6]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65B150C+37916]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF7D65A8E95+3493]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7D6854865+1047941]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D663D2C1+255265]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66385B4+235540]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D66386EB+235851]
+	Microsoft::Applications::Events::ILogConfiguration::operator* [0x00007FF7D662FEE1+201025]
+	BaseThreadInitThunk [0x00007FFDC576257D+29]
+	RtlUserThreadStart [0x00007FFDC7A6AA48+40]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:144)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:574)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:662)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:96)
+	at android.BlazeLoginTest.test_Login_And_Verify_About_Us(BlazeLoginTest.java:73)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-_Dragan_Suite-class-failed -->
           <div class="suite-_Dragan_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -228,50 +497,6 @@
                   <a name="GetBookDetailsNo23">
                   </a> <!-- GetBookDetailsNo23 -->
                   <span class="method-name">GetBookDetailsNo23</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-_Dragan_Suite-class-passed -->
-          <div class="suite-_Dragan_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">android.BlazeFindAndPurchaseTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Find_Purchase">
-                  </a> <!-- test_Find_Purchase -->
-                  <span class="method-name">test_Find_Purchase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-_Dragan_Suite-class-passed -->
-          <div class="suite-_Dragan_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">android.BlazeLoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Alert">
-                  </a> <!-- test_Alert -->
-                  <span class="method-name">test_Alert</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Login_And_Verify">
-                  </a> <!-- test_Login_And_Verify -->
-                  <span class="method-name">test_Login_And_Verify</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Login_And_Verify_About_Us">
-                  </a> <!-- test_Login_And_Verify_About_Us -->
-                  <span class="method-name">test_Login_And_Verify_About_Us</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -356,52 +581,52 @@ data.addRows(11);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_Alert')
 data.setCell(0, 2, 'android.BlazeLoginTest')
-data.setCell(0, 3, 7150914);
+data.setCell(0, 3, 2661);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_Find_Purchase')
-data.setCell(1, 2, 'android.BlazeFindAndPurchaseTest')
-data.setCell(1, 3, 31826);
+data.setCell(1, 1, 'GetBookDetails')
+data.setCell(1, 2, 'android.RestTest')
+data.setCell(1, 3, 2612);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test_Login_And_Verify')
+data.setCell(2, 1, 'test_Login_And_Verify_About_Us')
 data.setCell(2, 2, 'android.BlazeLoginTest')
-data.setCell(2, 3, 29254);
+data.setCell(2, 3, 2429);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test_Login_And_Verify_About_Us')
-data.setCell(3, 2, 'android.BlazeLoginTest')
-data.setCell(3, 3, 21721);
+data.setCell(3, 1, 'test_Find_Purchase')
+data.setCell(3, 2, 'android.BlazeFindAndPurchaseTest')
+data.setCell(3, 3, 2365);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'GetBookDetails')
-data.setCell(4, 2, 'android.RestTest')
-data.setCell(4, 3, 2742);
+data.setCell(4, 1, 'test_Login_And_Verify')
+data.setCell(4, 2, 'android.BlazeLoginTest')
+data.setCell(4, 3, 1647);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'GetBookDetailsNo2')
-data.setCell(5, 2, 'android.RestTest2')
-data.setCell(5, 3, 229);
+data.setCell(5, 2, 'android.RestTest')
+data.setCell(5, 3, 221);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'GetBookDetailsNo2')
+data.setCell(6, 1, 'GetBookDetailsNo24')
 data.setCell(6, 2, 'android.RestTest')
-data.setCell(6, 3, 189);
+data.setCell(6, 3, 201);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'GetBookDetails')
 data.setCell(7, 2, 'android.RestTest2')
-data.setCell(7, 3, 172);
+data.setCell(7, 3, 189);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'GetBookDetailsNo24')
+data.setCell(8, 1, 'GetBookDetailsNo23')
 data.setCell(8, 2, 'android.RestTest')
-data.setCell(8, 3, 157);
+data.setCell(8, 3, 184);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'GetBookDetailsNo23')
-data.setCell(9, 2, 'android.RestTest')
-data.setCell(9, 3, 157);
+data.setCell(9, 1, 'GetBookDetailsNo2')
+data.setCell(9, 2, 'android.RestTest2')
+data.setCell(9, 3, 184);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'GetBookDetailsNo23')
 data.setCell(10, 2, 'android.RestTest2')
-data.setCell(10, 3, 147);
+data.setCell(10, 3, 178);
 window.suiteTableData['_Dragan_Suite']= { tableData: data, tableDiv: 'times-div-_Dragan_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 hours</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-_Dragan_Suite">
               </div> <!-- times-div-_Dragan_Suite -->
             </div> <!-- times-div -->
@@ -412,47 +637,6 @@ return data;
             <span class="header-content">Reporter output for  Dragan Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">test_Login_And_Verify</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Login to store</span>
-                <span class="reporter-method-output">Check is logged</span>
-                <span class="reporter-method-output">Click on Labtops</span>
-                <span class="reporter-method-output">Find Lenovo</span>
-                <span class="reporter-method-output">Use contact form</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">test_Alert</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Login to store</span>
-                <span class="reporter-method-output">Check is logged</span>
-                <span class="reporter-method-output">Click on Labtops</span>
-                <span class="reporter-method-output">Find Lenovo</span>
-                <span class="reporter-method-output">Use contact form</span>
-                <span class="reporter-method-output">Handle alert</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">test_Login_And_Verify_About_Us</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Login to store</span>
-                <span class="reporter-method-output">Check is logged</span>
-                <span class="reporter-method-output">Check About us</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">test_Find_Purchase</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Set Username</span>
-                <span class="reporter-method-output">Set Password</span>
-                <span class="reporter-method-output">Click on Labtops</span>
-                <span class="reporter-method-output">Find Dell device</span>
-                <span class="reporter-method-output">Go to chart</span>
-                <span class="reporter-method-output">Log Out</span>
-                <span class="reporter-method-output">Verify Log Out</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-_Dragan_Suite" class="panel">
@@ -474,61 +658,69 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test_Login_And_Verify</span>
-                <span class="method-start">31 ms</span>
+                <span class="method-start">47 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test_Login_And_Verify_About_Us</span>
-                <span class="method-start">29410 ms</span>
+                <span class="method-start">1767 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test_Alert</span>
-                <span class="method-start">51135 ms</span>
+                <span class="method-start">4202 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">android.BlazeFindAndPurchaseTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup</span>
-                <span class="method-start">7202112 ms</span>
+                <span class="method-start">6951 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test_Find_Purchase</span>
-                <span class="method-start">7202112 ms</span>
+                <span class="method-start">6952 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">android.RestTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">GetBookDetails</span>
-                <span class="method-start">7233953 ms</span>
+                <span class="method-start">9350 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetBookDetailsNo2</span>
-                <span class="method-start">7236695 ms</span>
+                <span class="method-start">11971 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetBookDetailsNo23</span>
-                <span class="method-start">7236884 ms</span>
+                <span class="method-start">12200 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetBookDetailsNo24</span>
-                <span class="method-start">7237056 ms</span>
+                <span class="method-start">12389 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">android.RestTest2</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">GetBookDetails</span>
-                <span class="method-start">7237229 ms</span>
+                <span class="method-start">12623 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetBookDetailsNo2</span>
-                <span class="method-start">7237401 ms</span>
+                <span class="method-start">12816 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">GetBookDetailsNo23</span>
-                <span class="method-start">7237630 ms</span>
+                <span class="method-start">13004 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

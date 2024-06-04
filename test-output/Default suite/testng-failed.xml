@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="android.BlazeLoginTestheadless">
+      <class name="android.BlazeLoginTest">
         <methods>
+          <include name="afterTest"/>
           <include name="setup"/>
-          <include name="test_Login_And_Verify"/>
+          <include name="test_Alert"/>
+          <include name="test_Login_And_Verify_About_Us"/>
         </methods>
-      </class> <!-- android.BlazeLoginTestheadless -->
+      </class> <!-- android.BlazeLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
